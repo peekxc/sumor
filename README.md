@@ -1,7 +1,9 @@
 # SUMOR 
-__sumor__ is a very early-stage package for the [R Project for Stastical Computing](https://www.r-project.org/about.html) developed to enable access to a small subset of the [Simulation of Urban Mobility](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) (SUMO) API.
+__sumor__ is an R package developed to enable access to a small subset of the [Simulation of Urban Mobility](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) (SUMO) API.
 
-The focus of the package is to simplify the usage, configuration, and execution of the variety of moving parts necessary to build a simulation with SUMO.
+The focus of the package is to simplify the usage, configuration, and execution of the variety of moving parts necessary to build a simulation with SUMO. The main export of the package is a [reference class](http://adv-r.had.co.nz/R5.html) wrapping a few common SUMO API operations (e.g. download OSM maps, using netconvert, configuring and running simple traffic simulations) 
+
+**sumor** is *not* a full-fledged port of SUMO. Its API relatively limited regarding simulation, see the [source class](https://github.com/peekxc/sumor/blob/main/R/sumo.R) for the full interface. The package is also looking maintainers.
 
 ## Installation
 1. Make sure [sumo is installed](http://sumo.dlr.de/wiki/Installing) and you're aware of [the location of the home path](http://sumo.dlr.de/wiki/FAQ#Basic_Usage), i.e. `sumo` with nothing else should return something similar to:
