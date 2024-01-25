@@ -1,0 +1,5 @@
+## Ignore folders which affect repo attributes 
+man/*
+inst/*
+vignettes/*
+ignore/*
