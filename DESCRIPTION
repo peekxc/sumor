@@ -1,0 +1,19 @@
+Package: sumor
+Type: Package
+Title: R port for SUMO 
+Version: 0.1.0
+Author: Matt Piekenbrock
+Maintainer: Matt Piekenbrock <matt.piekenbrock@gmail.com>
+Description: Ports various commands for constructing, simulating, and extracting information related to SUMO road networks. 
+License: MIT
+Imports:
+  Rcpp,
+  methods, 
+  sp, 
+  XML, 
+  xml2
+Linkingto: Rcpp  
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+LinkingTo: Rcpp
