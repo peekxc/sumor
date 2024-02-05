@@ -1,5 +1,5 @@
 # SUMOR 
-__sumor__ is an R package developed to enable access to a small subset of the [Simulation of Urban Mobility](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) (SUMO) API.
+__sumor__ is an R package that enables access to a small subset of the [Simulation of Urban Mobility](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) (SUMO) API.
 
 The focus of the package is to simplify the usage, configuration, and execution of the variety of moving parts necessary to build a simulation with SUMO. The main export of the package is a [reference class](http://adv-r.had.co.nz/R5.html) wrapping a few common SUMO API operations (e.g. download OSM maps, using netconvert, configuring and running simple traffic simulations) 
 
