@@ -15,7 +15,7 @@ The focus of the package is to simplify the usage, configuration, and execution 
 2. Install the release version of `devtools` from CRAN with `install.packages("devtools")`
 3. Install `sumor` with: 
 ```R
-devtools::install_github("https://github.com/wsu-wacs/sumor")
+devtools::install_github("https://github.com/peekxc/sumor")
 ```
 
 4. Configure the variables needed from Step (1):
